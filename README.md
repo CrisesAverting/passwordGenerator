@@ -24,6 +24,12 @@ A javascript based password generator that accepts user parameters for length of
 ## Screenshots
 
 <img src="./assets/images/03-javascript-homework-demo.png">
+<img src="./assets/images/passlen.png">
+<img src="./assets/images/lowcase.png">
+<img src="./assets/images/uppercase.png">
+<img src="./assets/images/numbers.png">
+<img src="./assets/images/specchar.png">
+<img src="./assets/images/generated">
 
 ## Technologies
 
