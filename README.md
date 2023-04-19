@@ -15,15 +15,15 @@ This project is a code refactor of a webpage to improve accessability, maintaina
 
 ## Links
 
-<a href="">Deployed Password Generator website</a>
+<a href="https://crisesaverting.github.io/passwordGenerator/">Deployed Password Generator website</a>
 
 ## Purpose
 
-A javascript based password generator
+A javascript based password generator that accepts user parameters for length of password and types of characters
 
 ## Screenshots
 
-<img src="./assets/images/">
+<img src="./assets/images/03-javascript-homework-demo.png">
 
 ## Technologies
 

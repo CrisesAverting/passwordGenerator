@@ -25,8 +25,6 @@ function getParams() {
   console.log(passlen);
   // console.log(typeof (passlen));
   if (validLen()) {
-
-
     hasLow = confirm("Do you want lower case letters?");
     hasUp = confirm("Do you want upper case letters?");
     hasNumb = confirm("Do you want numbers?");
@@ -78,7 +76,7 @@ function validLen() {
 function getRandomLower() {
   if (hasLow != false && newPasswd.length < passlen) {
     return lowletters.charAt(Math.floor(Math.random() * lowletters.length));
-  }else{
+  } else {
     return ""
   }
 }
@@ -87,7 +85,7 @@ function getRandomLower() {
 function getRandomUpper() {
   if (hasUp != false && newPasswd.length < passlen) {
     return upletters.charAt(Math.floor(Math.random() * upletters.length));
-  }else {
+  } else {
     return ""
   }
 }
@@ -139,12 +137,12 @@ function genPass() {
 }
 
 function generatePassword() {
-  
+
   getParams();
 
   initPass()
-  while(newPasswd.length<passlen){
-  genPass()
+  while (newPasswd.length < passlen) {
+    genPass()
   }
   return newPasswd
 }
